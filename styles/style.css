@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    height: 200vh; 
+    background-image: url(/img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+main{
+    background-color: #ffffff;
+    height: 72rem;
+    width: 50rem;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1; 
+}
+
+.logo{
+    margin: -48rem 0 0 -13rem;
+    z-index: -1;
+}
+
+.logo img{
+    height: 100rem;
+}
+
+.services{
+    margin: -37rem 0 0 0;
+    padding: 0 4rem;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 40px;
+    border-bottom: 2px dashed #000000;
+}
+
+.price p{
+    margin: 1rem 0;
+}
+
+.hw{
+    margin: 1rem 0;
+    border-bottom: 2px dashed #000000;
+}
+
+.wash{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 2rem;
+}
+
+.wash:nth-child(2), .wash:nth-child(3){
+    margin: 2rem 0 2rem 2rem;
+}
+
+footer{
+    margin-top: 3rem;
+}
+
+.foo{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
